@@ -1,0 +1,13 @@
+.{
+    .name = .pixman,
+    .version = "0.46.4",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://gitlab.freedesktop.org/pixman/pixman/-/archive/pixman-0.46.4/pixman-pixman-0.46.4.tar.gz",
+            .hash = "N-V-__8AAFGFLwDqH3MBb66PDaioYrGihvXKTS3FzQVque04",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2637+6a9510c0e",
+    .paths = .{ "build.zig", "build.zig.zon" },
+    .fingerprint = 0x16aa7fe7391187a4,
+}
